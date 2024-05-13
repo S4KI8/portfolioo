@@ -10,7 +10,7 @@
     <header>
       <img id="logo" src="./assets/images/logo.png" alt="Website logo" />
       <nav id="nav-links">
-        <ul>
+        <ul class="roboto-bold">
           <li class="nav-links-items"><a href="#bio">Bio</a></li>
           <li class="nav-links-items">
             <a href="#work-experience">Work Experience</a>
@@ -24,19 +24,36 @@
     </header>
     <main>
       <div id="main-container">
-        <section id="bio">
-          <h1>Md Sazzadul Islam <span>Sakib</span></h1>
+        <section id="hero">
+          <div id="hero-left">
+            <p id="hero-paragraph">
+              Hello, I'm
+              <span id="profession-hero"></span>
+            </p>
+            <h1 id="full-name" class="merriweather-bold">
+              Md Sazzadul Islam <span id="last-name">Sakib</span>
+            </h1>
+          </div>
+          <div id="hero-right">
+            <img
+              id="hero-image"
+              src="./assets/images/hero-image.png"
+              alt="Site owner picture"
+            />
+          </div>
         </section>
+        <section id="bio"></section>
         <section id="work-experience"></section>
         <section id="education"></section>
         <section id="skills"></section>
         <section id="additional-and-others-certificate"></section>
-        <section id="achievment"></section>
+        <section id="achievment">achievment</section>
         <section id="projects"></section>
         <section id="contact-me"></section>
       </div>
     </main>
     <footer></footer>
-    <script src="./public/js/main.js"></script>
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+    <script src="./public/js/main.js" defer></script>
   </body>
 </html>
