@@ -88,13 +88,12 @@ header {
 }
 /* Layout */
 #hero-paragraph {
-  font-size: var(--paragraph-font-size);
-  margin-top: 50px;
-  justify-self: flex-start;
+  font-size: 2rem;
+  margin-bottom: 40px;
 }
 #profession-hero {
   font-weight: bold;
-  font-size: var(--paragraph-font-size);
+  font-size: 2.5rem;
   color: var(--accent-color);
 }
 #profession-hero::after {
@@ -106,17 +105,18 @@ header {
   margin-left: 0.35%;
 }
 #full-name {
-  font-size: 7rem;
+  font-size: 6.5rem;
   color: var(--secondary-color);
 }
 #last-name {
-  font-size: 7rem;
+  font-size: 6.5rem;
   color: var(--accent-color);
 }
 
 #hero-button {
   display: flex;
   gap: 5%;
+  margin-top: 20px;
 }
 .hero-btn {
   border-radius: 50px;
